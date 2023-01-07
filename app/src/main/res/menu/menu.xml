@@ -1,0 +1,25 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+
+    <item
+        android:id="@+id/message"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="always"
+        android:title="message"/>
+
+    <item
+        android:id="@+id/picture"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="always|withText"
+        android:title="picture"/>
+
+    <item
+        android:id="@+id/mode"
+        android:icon="@drawable/ic_baseline_add_location_24"
+        app:showAsAction="always"
+        android:title="mode"/>
+
+</menu>

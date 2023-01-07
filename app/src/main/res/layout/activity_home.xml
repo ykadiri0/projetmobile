@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".Activities.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ww"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="bottom">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:gravity="center"
+                android:src="@drawable/pharmacie" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fab0"
+                android:drawableLeft="@drawable/ic_baseline_local_pharmacy_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Tout les Pharmacies"
+                app:cornerRadius="20dp"
+                app:elevation="10dp"
+                app:strokeColor="@color/purple_700"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Pharmacie de garde"
+                app:cornerRadius="20dp"
+                app:elevation="10dp"
+                app:strokeColor="@color/purple_700"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Pharmacie a proximite"
+                app:cornerRadius="20dp"
+                app:elevation="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fab2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Chercher des Pharmacies"
+                app:cornerRadius="20dp"
+                app:elevation="10dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignUp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Login"
+                app:cornerRadius="20dp"
+                app:elevation="10dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.91"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:src="@drawable/pharmacie5">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</RelativeLayout>

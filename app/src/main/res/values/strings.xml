@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Pharmacy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Villes Zones</string>
+    <string name="nav_header_subtitle">Smart Manager</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Villes</string>
+    <string name="menu_gallery">Zones</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="provider_enabled">The provider %s is now enabled</string>
+    <string name="provider_disabled">The provider %s is now disabled</string>
+    <string name="provider_new_status">The provider %1$s has now a new status %2$s</string>
+    <string name="new_location">New Location : Latitude = %1$s, Longitude = %2$s, Altitude = %3$s avec une précision de %4$s mètres </string>
+    <string name="URL_LOGIN"> http://10.0.2.2/EjemploChat/login.php </string>
+    <string name="URL_USUARIOS"> http://10.0.2.2/EjemploChat/obtenerUsuarios.php </string>
+
+    <string name="URL_ENVIAR_MENSAJE"> http://10.0.2.2/EjemploChat/insertarMensaje.php </string>
+    <string name="URL_ENVIAR_MENSAJE_GRUPAL"> http://10.0.2.2/EjemploChat/insertarMensajeGrupal.php </string>
+
+    <string name="URL_OBTENER_MENSAJES"> http://10.0.2.2/EjemploChat/obtenerMensajes.php </string>
+    <string name="URL_OBTENER_MENSAJES_GRUPAL"> http://10.0.2.2/EjemploChat/obtenerMensajesGrupales.php </string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
